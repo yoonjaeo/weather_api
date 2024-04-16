@@ -44,7 +44,7 @@ class Visualizer:
     
 
 def main():
-    api_key = "053de8cde01f3c2907748c88ac557933"
+    api_key = "api_key"
     L = Logger()
     city_list = ['Busan', 'Seoul','London']
     for i in range(2):

@@ -20,7 +20,7 @@ class DataFetcher:
             return -1
         
 def main():
-    api_key = "053de8cde01f3c2907748c88ac557933"
+    api_key = "api_key"
     fethcer = DataFetcher("Busan", api_key)
     L =Logger()
     print(fethcer.fetch_weather(L))
